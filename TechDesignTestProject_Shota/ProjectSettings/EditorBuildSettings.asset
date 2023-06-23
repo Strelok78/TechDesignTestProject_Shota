@@ -8,4 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mystic_forest_scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/kiongdom_scene.unity
+    guid: 4cc37e53d4ea5404e9e12c40f436d616
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cf92fa481f2e2294283010a076f4dfaa, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 1fd7a711fc77dab47a7ecb15bdfa908c, type: 2}
