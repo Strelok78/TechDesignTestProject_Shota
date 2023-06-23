@@ -139,7 +139,6 @@ GameObject:
   - component: {fileID: 140027186}
   - component: {fileID: 140027188}
   - component: {fileID: 140027187}
-  - component: {fileID: 140027189}
   - component: {fileID: 140027190}
   m_Layer: 5
   m_Name: Background
@@ -203,19 +202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140027185}
   m_CullTransparentMesh: 1
---- !u!114 &140027189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140027185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ae9e2dfe9920a448ae48c8f519fe382, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 0.05
 --- !u!82 &140027190
 AudioSource:
   m_ObjectHideFlags: 0
@@ -408,20 +394,28 @@ PrefabInstance:
       value: portal_button
       objectReference: {fileID: 0}
     - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1935981849}
+      objectReference: {fileID: 144488185}
     - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 144488185}
     - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonClick
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PortalButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -430,6 +424,10 @@ PrefabInstance:
     - target: {fileID: 6968514556421994898, guid: b784b84c058db71448563f55670aca9d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825217947479998194, guid: b784b84c058db71448563f55670aca9d, type: 3}
+      propertyPath: m_UpdateString.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_text
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784b84c058db71448563f55670aca9d, type: 3}
@@ -1926,17 +1924,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1935981849 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 150602906235234298, guid: f8767713c4e51f049aa06b91510cd33c, type: 3}
-  m_PrefabInstance: {fileID: 860199454}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5021a788112f5b14aa73fd9a95c57fae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1960796735 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2511241019246533222, guid: de64acec78708904ba11f32ce2c89491, type: 3}

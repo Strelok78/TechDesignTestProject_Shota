@@ -23,6 +23,14 @@ MonoBehaviour:
     m_Key: button_text
     m_Metadata:
       m_Items: []
+  - m_Id: 9142499672064
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9436801400832
+    m_Key: portal_button_text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

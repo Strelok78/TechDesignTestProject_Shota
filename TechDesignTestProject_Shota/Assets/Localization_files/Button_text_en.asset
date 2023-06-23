@@ -29,10 +29,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 1378431868919873562
+  - m_Id: 9142499672064
+    m_Localized: 
+    m_Metadata:
+      m_Items:
+      - rid: 1378431868919873562
+  - m_Id: 9436801400832
+    m_Localized: Jump into portal
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
     - rid: 1378431868919873562
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0000721505000000000032d372020000
+        m_Entries: 0000721505000000000032d372020000000072a750080000
